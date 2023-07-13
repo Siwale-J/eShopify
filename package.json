@@ -1,0 +1,13 @@
+{
+  "name": "eshopify",
+  "version": "1.0.0",
+  "description": "Getting Started with Create React App\r This project was bootstrapped with Create React App.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
